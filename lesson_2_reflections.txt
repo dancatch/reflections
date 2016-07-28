@@ -10,3 +10,6 @@ The working directory is the parent directory holding the .git hidden directory 
 It is in essence just a directory and can hold files that are not under version control by Git and files that are. 
 Staging area only holds files that are under version control, and can be changed. 
 
+3. How can you use the staging area to make sure you have one commit per logical change?
+You can make changes to many files in the working directory. But you can add a subset of those files to the staging area and then commit them. 
+You can add them to staging and still make further changes, thus using the staging area as a temp storage for a known good version prior to commiting it. 
