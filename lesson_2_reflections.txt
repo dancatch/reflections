@@ -1,0 +1,12 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+Git will setup the hidden .git folder in an initial state. 
+Git does not commit any files or make any new branches. 
+Without initialising the .git folder Git does not treat the parent folder as a repository and so you can not add files or commit them.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area appears to be a concept rather than a tangeble thing that can be seen. 
+Its value is to allow a working area for changes to files that are under version control by Git in the repository. 
+The working directory is the parent directory holding the .git hidden directory and the repository. 
+It is in essence just a directory and can hold files that are not under version control by Git and files that are. 
+Staging area only holds files that are under version control, and can be changed. 
+
