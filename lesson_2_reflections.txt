@@ -13,3 +13,21 @@ Staging area only holds files that are under version control, and can be changed
 3. How can you use the staging area to make sure you have one commit per logical change?
 You can make changes to many files in the working directory. But you can add a subset of those files to the staging area and then commit them. 
 You can add them to staging and still make further changes, thus using the staging area as a temp storage for a known good version prior to commiting it. 
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. when collaborating with others. Different branches can be used by different users / or per task
+B. when trying to develop new features or experimental things, you want to do that work but also keep a working version 
+without the experimental stuff that is HEAD of a branch and can be maintained separately.
+C. If different products are being built from the same code base. The branches may never be fully merged back into one. 
+But some bug fixes and so on might be merged between the branches. 
+
+5. How do the diagrams help you visualize the branch structure?
+Just like diagrams do in many use cases in the world. Branch diagrams of git commits help you visualise the branch structure.
+Without some form of diagram we just have a list of commit IDs.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The wanted result of merging is to get a working version with all the features and fixes from both branches. 
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Auto merging saves time, lots of it !. But there is risk that something unwanted could get merged in. 
+Manual merging everything gives total control.
