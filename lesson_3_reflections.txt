@@ -1,0 +1,3 @@
+1. When would you want to use a remote repository rather than keeping all your work local?
+Using a remote repo means there is a backup in the cloud. It makes it easier to share the work accross multiple computers.
+It also means it can be shared with multiple collaborators. 
