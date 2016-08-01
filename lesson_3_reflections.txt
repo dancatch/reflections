@@ -5,3 +5,17 @@ It also means it can be shared with multiple collaborators.
 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Pulling changes automatically might introduce new versions at HEAD that intefere with work you were doing in your local repo, 
 especially if working on a joint project with many collaborators
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+branch - this is a method to maintain multiple working versions within a repository. 
+For example a new branch might be started to hold work for a specific task - to add a specific feature or work on a specific bug fix.
+branches can be merged together when those features or fixes are ready to be added to the main code.
+You might also use branches to maintain different but closely related products from the same code base.
+For exmaple different language versions of a software APP, or slightly different feature sets in a product made for different customers.
+clone - this is the action of making a new copy of a repository. It might be a new local copy on a computer, or a copy on github from a local computer, 
+or making a copy on a local computer from git hub, or even a copy on github from github. 
+There is no link between the copies, so if they diverge no one will be able to tell where the starting repository was
+fork - this allows you to effectively make a clone of a github repository on github, but maintain a link to the original.
+This means you can take someone else's work and make your own copy to change and maintain as you wish, but the link means that the 
+original owner can always be known and therefore get credit etc. If you work in the original owners repository they will keep control
+of master branch etc. Having your own forked copy means you have total control, but without losing the link back to the original work.
