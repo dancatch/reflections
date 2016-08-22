@@ -19,3 +19,10 @@ fork - this allows you to effectively make a clone of a github repository on git
 This means you can take someone else's work and make your own copy to change and maintain as you wish, but the link means that the 
 original owner can always be known and therefore get credit etc. If you work in the original owners repository they will keep control
 of master branch etc. Having your own forked copy means you have total control, but without losing the link back to the original work.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+It means it is simple to work offline. You can do a git fetch and know that origin/master (in your local repo) is upto date with the
+latest on the Remote. However, your local master branch has not changed. 
+Next time you can log in and do a fetch the origin/master on github may have changed of course. 
+Also note that it seems there is no simple way to do a diff of your origin/master with the current contents of the remote. 
+
